@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
+
+body{
+	background-color: #ffe6ff;
+}
+
+.encabezado{
+	height: 100px;
+	width: 1024px;
+	font-family: 'Mr De Haviland', cursive;
+	font-size: 24px;
+	margin:auto;
+	background-color: #ffffe6;
+	border:solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+#tituloPrincipal{
+	height: 40px;
+	width: 400px;
+	margin-left: 150px;
+}
+
+#descripcion{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 300px;
+	height: 40px;
+	width: 400px;
+}
+
+#telefonoEncabezado{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 850px;
+	margin-right: 20px;
+	font-size: 18px;
+	width:140px;
+	border:solid;
+
+}
+
+#celularEncabezado{
+}
+
+#direccionConsultorio{
+	float:right;
+	width:  250px;
+	height: 20px;
+	top:	80px;
+	left: 1075px;
+	border: solid;
+}
+
+h1,h2{
+	width: 500px;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+h1{
+	float:left;
+}
+
+#horaActual{
+	display: inline-block;
+	height: 20px;
+	width: 100px;
+	color: white;
+	text-align: bottom;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.nombreDoctor,.tituloTurnos{
+	font-size: 26px;
+	font-style: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.tituloTurnos{
+	text-align: center;
+}
+
+
+#botonera{
+	width:1024px;
+	height:50px;
+	margin:auto;
+	margin-top: 5px;
+}
+
+ul{
+ list-style-type: none;
+}
+
+
+#listaBotones{
+	position: relative;
+	list-style: none; 	
+	width: 600px;
+	height: 40px;
+	margin: auto;
+	top:5px;
+}
+
+
+#listaBotones li{
+	float:left;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 170px;
+}
+
+#listaBotones li a{
+	display: block;
+	margin:0px;
+	padding-top: 4px;
+	padding-bottom: 15px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	border: none;
+	border-radius: .3em;
+	background-color: #c266ff;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+  	line-height: 1.5;
+
+  	box-shadow: 5px 3px 7px rgba(179,179,179,0.5);
+}
+
+
+#listaBotones li a:hover {
+	background-color: #b380ff;
+}
+
+.contenedor{
+	height:568px;
+	width: 1024px;
+	margin:auto;
+	margin-top: 5px;
+	align-content: left;
+}
+
+.articulo{
+	height: 550px;
+	width: 500px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#infoDoctor{
+	float:left;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #f2f2f2;
+	border-color: #cccccc;
+}
+
+
+.cargarTituloTurnos{
+	text-align: center;
+	font-style: bold;
+	font-size: 22px;
+	color: #ff9999;
+}
+
+#solicitarTurno{
+	float: right;
+	padding-bottom: 10px;
+
+}
+
+
+#solicitarTurno{
+    max-width: 500px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #808080;
+
+}
+
+#solicitarTurno label{
+    display:block;
+    margin-bottom: 20px;
+}
+
+
+#solicitarTurno label > span{
+    float: left;
+    width: 100px;
+    color: #F072A9;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#solicitarTurno fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #FFD2D2;
+    padding: 20px;
+    background: #FFF4F4;
+    box-shadow: inset 0px 0px 15px #FFE5E5;
+    -moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+    -webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+#solicitarTurno fieldset legend{
+    color: #FFA0C9;
+    border-top: 1px solid #FFD2D2;
+    border-left: 1px solid #FFD2D2;
+    border-right: 1px solid #FFD2D2;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #FFF4F4;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #F1F1F1;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+#solicitarTurno  input[type=text],
+#solicitarTurno  input[type=date],
+#solicitarTurno  input[type=datetime],
+#solicitarTurno  input[type=number],
+#solicitarTurno  input[type=search],
+#solicitarTurno  input[type=time],
+#solicitarTurno  input[type=url],
+#solicitarTurno  input[type=email],
+#solicitarTurno  select, 
+#solicitarTurno  textarea{
+	 border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #FFC2DC;
+    outline: none;
+    color: #F072A9;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px #FFD5E7;
+    -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+    -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+    background: #FFEFF6;
+    width:50%;
+}
+
+#solicitarTurno  input[type=submit],
+#solicitarTurno  input[type=button]{
+    background: #EB3B88;
+    border: 1px solid #C94A81;
+    padding: 5px 15px 5px 15px;
+    color: #FFCBE2;
+    box-shadow: inset -1px -1px 3px #FF62A7;
+    -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+    -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;    
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.required{
+    color:red;
+    font-weight:normal;
+}
+
+#solicitarTurno textarea{
+    width:250px;
+    height:100px;
+}
+
+
+aside, #asideDoctor{
+	height: 100px;
+	width:  100px;
+	float: right;
+	border:solid;
+}
+
+figure{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin:0;
+}
+
+
+.infoCirugiaIzq,.infoCirugiaDer{
+	border: solid;
+	width: 500px;
+	margin-top: 30px;
+}
+
+.infoCirugiaIzq{
+	float: left;
+}
+
+.infoCirugiaDer{
+	float: right;
+}
+
+.fotosCirugia{
+	width: 180px;
+	height: 150px;
+}
+
+.tarjeta {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    float: left;
+    width: 185px;
+    margin-top: 50px;
+    margin-right: 14px;
+    margin-left: 5px;
+    height: 450px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+
+}
+
+.tarjeta:hover,.tarjetaInst:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.infoTarjeta,.infoTarjetaInst {
+    padding: 2px 16px;
+}
+
+
+.tarjetaInst {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 1vh; /* 1 */
+  width: 1000px;
+  height: 160px;
+  margin-left: 10px;
+  margin-top: 30px;
+  border:solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
+
+.fotosInst{
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+
+}
+
+ .textoInst,.tituloInst{
+    flex: 1 1 auto;
+    width: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+.piePagina{
+	height: 50px;
+	width: 1024px;
+	border: solid;
+	margin:auto;
+	margin-top: 5px;
+}
+
+
+.mdl-card + .mdl-card {
+  margin-top: 40px;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+#logoImg{
+	width: 200px;
+	height: 200px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ff99ff;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

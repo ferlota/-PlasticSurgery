@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, address, phone, icons" />
+		<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="Estilos/estilos.css"/>
+  <script src="jquery-3.2.1.js" type="text/javascript"></script>
+  <script type="text/javascript" src="Scripts/funciones.js"></script>
+  <script type="text/javascript">
+      		$(document).ready(function(){
+      			cargarEncabezado();
+      			cargarNombreDoctor();
+      			cargarInfoDoctor();
+      			mostrarHora();
+      			cargarTarjetas();
+      	});
+  </script>
+<div class="encabezado">
+	<div id="tituloPrincipal"></div>
+	<div id="descripcion"></div>
+</div>
+</head>
+<body>
+<nav id="botonera">
+		<ul id="listaBotones">
+			<li><a href="Inicio.html">Inicio</a></li>
+			<li><a href="Cirugias.html">Cirugias</a></li>
+			<li><a href="Instalaciones.html">Instalaciones</a></li>
+		</ul>
+	</nav>	
+<section class="contenedor">
+	<div class ="tarjeta">
+		<img class="fotosCirugia" src="Imagenes/abdomen.jpg" alt="Abdomen">
+		<div class="infoTarjeta" id="tarjeta1"></div> 
+	</div>
+	<div class ="tarjeta">
+		<img class="fotosCirugia" src="Imagenes/mamas.jpg" alt="Mamas">
+		<div class="infoTarjeta" id="tarjeta2"></div> 
+	</div>
+	<div class ="tarjeta">
+		<img class="fotosCirugia" src="Imagenes/lifting.jpg" alt="Lifting">
+		<div class="infoTarjeta" id="tarjeta3"></div> 
+	</div>
+	<div class ="tarjeta">
+		<img class="fotosCirugia" src="Imagenes/orejas.jpg" alt="Orejas">
+		<div class="infoTarjeta" id="tarjeta4"></div> 
+	</div>
+	<div class ="tarjeta">
+		<img class="fotosCirugia" src="Imagenes/lipoescultura.jpg" alt="Lipo">
+		<div class="infoTarjeta" id="tarjeta5"></div> 
+	</div>
+</section>
+
+<footer class="footer-distributed">
+	<div class="footer-left">
+		<img src="Imagenes/venus.png" id="logoImg">
+		<p class="footer-company-name">Centro Estetica Venus &copy; 2017</p>
+	</div>
+	<div class="footer-center">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>Av. Chivilcoy 3201</span> Capital Federal, Argentina</p>
+		</div>
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>4502-1727</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:support@company.com">joselotartaro@centro_venus.com</a></p>
+		</div>
+	</div>	
+	<div class="footer-right">
+		<p class="footer-company-about">
+				<span>Otros medios de contacto</span>					
+		</p>
+		<div class="footer-icons">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-github"></i></a>
+		</div>
+		<p id="horaActual"></p>
+	</div>
+</footer>
+</body>
+</html>

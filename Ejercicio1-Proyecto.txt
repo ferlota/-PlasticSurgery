@@ -1,0 +1,25 @@
+Dominio: centroestetica-venus.com.ar
+
+Comitente: Centro de Estetica (Cirugia Plastica)
+
+Estructura:
+
+Home: Donde se podra solicitar turno y obtener informacion del doctor.
+Cirugias: Informacion con detalle de cada tipo de cirugia
+Instalaciones: Donde se podra visualizar informacion  
+
+
+Servicios: Aumento de Mamas, Levantamiento de Mamas, Liposuccion, Implante Capilar, Lifting Facial, Rinoplastia.
+
+Rubro Comercial: Estetica
+
+
+Publico: 
+
+
+Javascript: 
+
+> Popup de promociones
+> Validar Form de turnos
+> Ubicacion del consultorio en el mapa de google.
+> Pop up con el cv en el boton "Ver cv del doctor".

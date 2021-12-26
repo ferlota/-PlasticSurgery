@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8" />
+
+<script type="text/javascript">
+function crearPopup(){		
+			var img = document.createElement("IMG");
+			img.setAttribute("src","../Imagenes/Banner3.jpg");
+			img.setAttribute("id","padel");
+			img.setAttribute("height","300");
+			img.setAttribute("width","1024");
+			img.setAttribute("onclick","cerrarPopup();");
+			document.getElementById("popup").appendChild(img);
+
+			var botonInformacion = document.createElement("BUTTON");
+			var t = document.createTextNode("Mas Informacion"); 
+			botonInformacion.onclick = enviarMail;
+			botonInformacion.appendChild(t);
+			document.body.appendChild(botonInformacion);
+
+			var botonContinuar = document.createElement("BUTTON");
+			var t = document.createTextNode("Continuar al sitio"); 
+			botonContinuar.onclick = cerrarPopup;
+			botonContinuar.appendChild(t);
+			document.body.appendChild(botonContinuar);
+		}		
+
+function cerrarPopup(){
+	window.close();
+}
+</script>
+
+</head>
+
+<body onload="crearPopup();">
+<div id="popup">
+</div>
+
+</body>	
+
+</html>
